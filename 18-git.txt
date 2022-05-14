@@ -1,5 +1,5 @@
 git init --> Projeyi localde başlatır.
-git add . --> Değişiklikleri staging area'ya ekler
+git add . --> Değişiklikleri staging(add.) area'ya ekler
 git commit -m"Update:" --> StagingArea'daki değişiklikleri commitleyip yeni versiyon oluşturur
 git status --> Nasdasdasdasdasdasdasdasde tarz değişiklikler var gösterir. modified || untracked
 git log --> Önceki commitler(versiyonlar) hakkındaki logları gösterir.
