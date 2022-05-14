@@ -1,6 +1,6 @@
-git init --> Projeyi localde başlatır.
-git add . --> Değişiklikleri staging area'ya ekler
-git commit -m"Update:" --> StagingArea'daki değişiklikleri commitleyip yeni versiyon oluşturur
+git init --> Projeyi localde başlatır.  *
+git add . --> Değişiklikleri staging area'ya ekler  *
+git commit -m"Update:" --> StagingArea'daki değişiklikleri commitleyip yeni versiyon oluşturur  *
 git status --> Nasdasdasdasdasdasdasdasde tarz değişiklikler var gösterir. modified || untracked
 git log --> Önceki commitler(versiyonlar) hakkındaki logları gösterir.
 git log --oneline --> Logları ve hashcodelarını tek satırda özetler.
@@ -10,3 +10,7 @@ git restore --staged . --> Stagedeki değişiklikleri locale(working space) taş
 git reset --hard --> Stage ve workingSpaceteki değişiklikleri komple kaldırır.
 git checkout [hashCode] [dosya] --> Dosya hashkodundaki versiyona döner.
 git checkout [hashCode] . --> Direk eski bir versiyona geçilir.
+git branch [isim] --> Yeni bir branch(dal) oluşturur.
+git branch --> Branchleri listeler.
+git checkout [gidilecekBranchAdı] --> Branchler arası geçer.
+Taha branch
