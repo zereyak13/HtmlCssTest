@@ -6,4 +6,5 @@ git log --> Önceki commitler(versiyonlar) hakkındaki logları gösterir.
 git log --oneline --> Logları ve hashcodelarını tek satırda özetler.
 git show [hashCode] --> Seçilen committe neler yapıldığını detaylıca gösterir.
 git restore . --> Localde Stage'e gönderilmeyen herşeyi ortadan kaldırır.
-
+git restore --staged . --> Stagedeki değişiklikleri locale(working space) taşır.
+git reset --hard --> Stage ve workingSpaceteki değişiklikleri komple kaldırır.
