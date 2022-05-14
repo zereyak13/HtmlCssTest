@@ -20,4 +20,4 @@ git remote add origin [https.GitAdresi] --> Pushlamak için pushlayacağı adres
 git remote -v --> bağlantı sağlandımı kontrol.(Sadece Init)
 git push -u origin [branch adı] --> İlk pushta bu şekilde göndermek gerkiyor.(Sadece Init)
 git push --> sonraki pushlar için.
-
+git pull --> githubdan locale verisiyonu çeker.
