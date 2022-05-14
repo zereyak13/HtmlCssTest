@@ -14,4 +14,5 @@ git branch [isim] --> Yeni bir branch(dal) oluşturur.
 git branch --> Branchleri listeler.
 git checkout [gidilecekBranchAdı] --> Branchler arası geçer.
 git branch -d [isim] --> Branch'i siler.
+git branch -m[yeniIsim] -- Branch adını değiştirir.
 Taha branch
