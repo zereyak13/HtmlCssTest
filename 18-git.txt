@@ -1,1 +1,9 @@
-sdads
+git init --> Projeyi localde başlatır.
+git add . --> Değişiklikleri staging area'ya ekler
+git commit -m"Update:" --> StagingArea'daki değişiklikleri commitleyip yeni versiyon oluşturur
+git status --> Nasdasdasdasdasdasdasdasde tarz değişiklikler var gösterir. modified || untracked
+git log --> Önceki commitler(versiyonlar) hakkındaki logları gösterir.
+git log --oneline --> Logları ve hashcodelarını tek satırda özetler.
+git show [hashCode] --> Seçilen committe neler yapıldığını detaylıca gösterir.
+git restore . --> Localde Stage'e gönderilmeyen herşeyi ortadan kaldırır.
+
