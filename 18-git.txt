@@ -15,4 +15,7 @@ git branch --> Branchleri listeler.
 git checkout [gidilecekBranchAdı] --> Branchler arası geçer.
 git branch -d [isim] --> Branch'i siler.
 git branch -m[yeniIsim] -- Branch adını değiştirir.
+git clone [https.GitAdresi] --> Projeyi çalışılan klasöre kurar.
+git remote add origin [https.GitAdresi] --> Pushlamak için pushlayacağı adresi 1 kere belirt.(Sadece init)
+https://github.com/zereyak13/HtmlCssTest.git
 Taha branch
