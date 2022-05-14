@@ -16,6 +16,9 @@ git checkout [gidilecekBranchAdı] --> Branchler arası geçer.
 git branch -d [isim] --> Branch'i siler.
 git branch -m[yeniIsim] -- Branch adını değiştirir.
 git clone [https.GitAdresi] --> Projeyi çalışılan klasöre kurar.
-git remote add origin [https.GitAdresi] --> Pushlamak için pushlayacağı adresi 1 kere belirt.(Sadece init)
+git remote add origin [https.GitAdresi] --> Pushlamak için pushlayacağı adresi 1 kere belirt.Cloud u bağladık.(Sadece init)
+git remote -v --> bağlantı sağlandımı kontrol.
+git push -u origin [branch adı] --> İlk pushta bu şekilde göndermek gerkiyor.
+git push --> sonraki pushlar için.
 https://github.com/zereyak13/HtmlCssTest.git
 Taha branch
