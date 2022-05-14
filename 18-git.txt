@@ -8,3 +8,5 @@ git show [hashCode] --> Seçilen committe neler yapıldığını detaylıca gös
 git restore . --> Localde Stage'e gönderilmeyen herşeyi ortadan kaldırır.
 git restore --staged . --> Stagedeki değişiklikleri locale(working space) taşır.
 git reset --hard --> Stage ve workingSpaceteki değişiklikleri komple kaldırır.
+git checkour [hashCode] [dosya] --> Dosya hashkodundaki versiyona döner.
+git checkour [hashCode] . --> Direk eski bir versiyona geçilir.
