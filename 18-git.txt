@@ -1,3 +1,9 @@
+git config --global user.name "Taha" --> Diğer kullanıcılar bu adı görecek
+git config --global user.email "tahaz@gma" --> Diğer kullanıcılara bu mail gözükecek
+git config --list --> Config bilgilerini verir isim mail vs.
+
+git config --global color.ui true --> bash paneli renklenir.
+--------------------------------
 git init --> Projeyi localde başlatır.  *
 git add . --> Değişiklikleri staging area'ya ekler  *
 git commit -m"Update:" --> StagingArea'daki değişiklikleri commitleyip yeni versiyon oluşturur  *
