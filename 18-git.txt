@@ -15,10 +15,12 @@ git restore . --> Localde Stage'e gönderilmeyen herşeyi ortadan kaldırır.
 git restore --staged . --> Stagedeki değişiklikleri locale(working space) taşır.
 git reset --hard --> Stage ve workingSpaceteki değişiklikleri komple kaldırır.
 git checkout [hashCode] [dosya] --> Dosya hashkodundaki versiyona döner.
-git checkout [hashCode] . --> Direk eski bir versiyona geçilir.
+git checkout [hashCode] . --> Direk eski bir versiyona geçilir. (Geçtikten sonra comit atarsak kalıcı olarak yeni versiyon oluşturur.)
+git reset --hard [hashCode] --> Geri dönülemez olarak eski versiyona döner.
 git branch [isim] --> Yeni bir branch(dal) oluşturur.
 git branch --> Branchleri listeler.
 git checkout [gidilecekBranchAdı] --> Branchler arası geçer.
+git merge [kaynakbrach] --> kaynak branch i içinde bulunduğumuz hedef branhe merge eder
 git branch -d [isim] --> Branch'i siler.
 git branch -m[yeniIsim] -- Branch adını değiştirir.
 git clone [https.GitAdresi] --> Projeyi çalışılan klasöre kurar.
